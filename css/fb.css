@@ -1,0 +1,284 @@
+@import url('https://fonts.googleapis.com/css2?family=Dangrek&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dangrek&family=Roboto+Slab:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dangrek&family=Outfit:wght@600&family=Roboto+Slab:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dangrek&family=Oswald&family=Outfit:wght@600&family=Roboto+Condensed&family=Roboto+Slab:wght@600&family=Varela+Round&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Arvo&family=Dangrek&family=Oswald&family=Outfit:wght@600&family=Roboto+Condensed&family=Roboto+Slab:wght@600&family=Varela+Round&display=swap');
+
+.main{
+  background-image:url(Photos/back.jpg);
+  background-size: 100% 120%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  
+}
+.hed{
+  color: white;
+  text-align: center;
+  font-family: Roboto Slab;
+}
+
+.mySlides {
+  display:none;
+}
+
+.Slide{
+  border: white 2px;
+  padding-left: 5%;
+  padding-top: 5%;
+  
+}
+.mySlides{
+  width: 1350px; 
+  height: 500px;
+  border-radius: 20px;
+}
+
+/* STAR SET CSS START */
+.rate{
+  padding-top: 1000px;
+}
+.Sbox{
+   padding-top: 180px;
+}
+
+.on{
+  padding-right: 80px;
+}
+
+.center{
+  padding-left:100%;
+  transform: translate(-50%, -50%);
+  
+}
+
+.stars{
+  
+  height: 150px;
+  width: 500px;
+  transform: translate(-50%, -50%);
+  background-color: rgba(255, 255, 255, 0.186);
+  border-radius: 10px
+}
+.stars input{
+  display: none;
+}
+
+.stars label{
+  float: right;
+  font-size: 450%;
+  color: lightgrey;
+  margin: 0 5px;
+  text-shadow: 1px 1px #bbb;
+  cursor: pointer;
+  padding-bottom: 10%;
+  padding-top: 100px;
+ 
+}
+
+.stars label:before{
+  
+  content: '★';
+}
+
+.stars input:checked ~ label{
+  color: gold;
+  text-shadow: 1px 1px #c60;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.stars:not(:checked) > label:hover,
+.stars:not(:checked) > label:hover ~ label{
+  color: gold;
+}
+
+.stars input:checked > label:hover,
+.stars input:checked > label:hover ~ label{
+  color: gold;
+  text-shadow: 1px 1px goldenrod;
+}
+
+ .result:before{
+  text-align: center;
+  position: absolute;
+  content: "";
+  width: 100%;
+  left: 47%;
+  transform: translateX(-47%);
+  bottom: -56px;
+  font-size: 30px;
+  font-weight: 500;
+  color: rgb(255, 255, 255);
+  font-family: Dangrek;
+  border-radius: 10px;
+  display: none;
+  background-color: rgba(255, 255, 255, 0.186);
+}
+.stars input:checked ~ .result:before{
+  display: block;
+}
+.stars #five:checked ~ .result:before{
+  content: "I LOVE IT 🧡 ";
+}
+.stars #four:checked ~ .result:before{
+  content: "I LIKE IT 😍 ";
+}
+.stars #three:checked ~ .result:before{
+  content: "IT'S GOOD 😊 ";
+}
+.stars #two:checked ~ .result:before{
+  content: "I DON'T LIKE THIS 😒 ";
+}
+.stars #one:checked ~ .result:before{
+  content: "I HATE IT 😡 ";
+}
+
+.gif{
+  padding-left: 36%;
+  width: 250px;
+}
+
+/*FORM BOX CSS*/
+.Mb{
+  padding-left: 26%;
+}
+.box3
+{
+  background-image:url(Photos/fromback.jpg);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  color: aliceblue;
+  width: 600px;
+  height: 750px;
+  padding-left: 4%;
+  padding-right: 4%;
+  background-color: solid black;
+  border: solid beige;
+  border-radius: 10PX;
+}
+
+.hd{
+  text-align: center;
+  font-size: 50px;
+  font-family: Roboto Slab;
+}
+
+.fbox{
+  background-color: rgba(255, 255, 255, 0.186);
+  color: #fff;
+  height: 550px;
+  width: 554px;
+  padding: 20px;
+  border-radius: 10px;
+  
+}
+
+.input{
+  height: 20px;
+  width: 90%;
+  border-radius: 10px;
+  padding: 10px;
+  background-color: #fafafa;
+  border:2px;
+  border-color: rgb(255, 255, 255);
+  font-weight: bold;
+  font-size: 15px;
+}
+
+.topic2{
+  font-size: 20px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.date{
+  font-family: 'PT Sans', sans-serif;
+  font-size: 1.2rem;
+  display: block;
+  height: 38px;
+  width: 50%;
+  text-align: center;
+  border-radius: 10px;
+  font-weight: bold;
+  font-size: 15px;
+}
+
+.addres{
+  height: 150px;
+  width: 90%;
+  border-radius: 10px;
+  padding: 10px;
+  font-weight: bold;
+  font-size: 15px;
+}
+
+/*BOUTTON CSS*/
+.but{
+  padding-left: 46.5%;
+}
+
+.sub {
+  padding: 15px 25px;
+  border: 4px;
+  border: #fff;
+  border-radius: 15px;
+  color: #ffffff;
+  z-index: 1;
+  background: #000000;
+  position: relative;
+  font-weight: 1000;
+  font-size: 17px;
+  -webkit-box-shadow: 4px 8px 19px -3px rgba(0,0,0,0.27);
+  box-shadow: 4px 8px 19px -3px rgba(0,0,0,0.27);
+  transition: all 250ms;
+  overflow: hidden;
+  cursor: pointer;
+ }
+ 
+ .sub::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 0;
+  border-radius: 15px;
+  background-color: #ffffff;
+  z-index: -1;
+  -webkit-box-shadow: 4px 8px 19px -3px rgba(0,0,0,0.27);
+  box-shadow: 4px 8px 19px -3px rgba(0,0,0,0.27);
+  transition: all 250ms
+ }
+ 
+ .sub:hover {
+  color: #000000;
+ }
+ 
+ .sub:hover::before {
+  width: 100%;
+ }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

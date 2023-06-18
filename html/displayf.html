@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="ISO-8859-1">
+        <title>Insert title</title>
+        <link rel="stylesheet" href="/css/displayf.css">
+    </head>
+
+    <body>
+
+	    <c:forEach var="cus" items="${fedDetails}">
+	
+	    <c:set var="id" value="${cus.id}"/>
+	    <c:set var="name" value="${cus.name}"/>
+	    <c:set var="email" value="${cus.email}"/>
+	    <c:set var="phone" value="${cus.phone}"/>
+	    <c:set var="date" value="${cus.date}"/>
+	    <c:set var="feedback" value="${cus.feedback}"/>
+
+		    <form class="Mb">
+
+	            <div class="box3">
+
+	                <h1 class="hd">Your feedback Details </h1>
+
+	                    <div class="fbox">
+	
+		                    <label class="topic2">ID</label> 
+		                    <div class="input">${cus.id}</div><br>
+	
+		                    <label class="topic2">Name</label>
+		                    <div class="input">${cus.name}</div><br>
+	
+		                    <label class="topic2">Email</label>
+		                    <div class="input">${cus.email}</div><br>
+	
+		                    <label class="topic2">Phone Number</label> 
+		                    <div class="input">${cus.phone}</div><br>
+	
+		                    <label class="topic2">Date</label>
+		                    <div class="input">${cus.date}</div><br>
+	
+	                        <label class="topic2">Your feedback</label>
+		                    <div class="input">${cus.feedback}</div><br>
+	
+
+	    </c:forEach>
+
+	
+		                        <c:url value="updatefeed.jsp" var="fedupdate">
+		                            <c:param name="id" value="${id}"/>
+		                            <c:param name="name" value="${name}"/>
+		                            <c:param name="email" value="${email}"/>
+		                            <c:param name="phone" value="${phone}"/>
+		                            <c:param name="date" value="${date}"/>
+		                            <c:param name="feedback" value="${feedback}"/>
+	                            </c:url>
+
+                                            <br>
+	
+		                        <a href="${fedupdate}"class="button">
+	                                <input type="button" name="update" value="Update FeedBack" class="button-40">
+	                            </a>
+	                
+                                            <br><br>
+	 
+	                            <c:url value="deletConfirm.jsp" var="fedDelete">
+		                            <c:param name="id" value="${id}" />
+		                            <c:param name="name" value="${name}" />
+		                            <c:param name="email" value="${email}" />
+		                            <c:param name="phone" value="${phone}"/>
+		                            <c:param name="date" value="${date}" />
+		                            <c:param name="feedback" value="${feedback}" />
+	                            </c:url>
+
+	                            <a href="${ fedDelete}" class="button">
+	                                <input type="button" name="delete" value="Delete Feedback" class="button-40">
+                                </a>
+
+	                    </div>
+	            </div>
+	
+	        </form>
+	   
+    </body>
+
+</html>

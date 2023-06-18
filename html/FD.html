@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<head>
+    <title>FeedBack</title>
+    <link rel="stylesheet" href="fb.css">
+</head>
+
+<body class="main">
+  <div class="main">
+    <!--Slide Section Start-->
+    <div class="Slide">
+      <img class="mySlides" src="/Photos/c6.jpg">
+      <img class="mySlides" src="/Photos/c2.avif">
+      <img class="mySlides" src="/Photos/c3.jpg">
+      <img class="mySlides" src="/Photos/c4.jpg">
+      <img class="mySlides" src="/Photos/c5.jpg">
+    </div>
+
+    <!--Slide JS-->
+    <script>
+      var myIndex = 0;
+      carousel();
+      function carousel() {
+        var i;
+        var x = document.getElementsByClassName("mySlides");
+        for (i = 0; i < x.length; i++) {
+          x[i].style.display = "none";  
+        }
+        myIndex++;
+        if (myIndex > x.length) {myIndex = 1}    
+        x[myIndex-1].style.display = "block";  
+        setTimeout(carousel, 1500); // Change image every 2 seconds
+      }
+    </script>
+
+    <!--END Slide Section-->
+
+    <br>
+
+    <!--Topic-->
+    <h1 class="hed">How Likely are You to Recommend our Service to Others ?</h1>
+
+    <!--START STAR Section-->
+    <div class="Sbox">   
+      <div class="center">
+        <div class="stars">
+
+          <input type="radio" id="five" name="rate" value="5" class="on">
+          <label for="five" class="on"></label>
+
+          <input type="radio" id="four" name="rate" value="4">
+          <label for="four"></label>
+
+          <input type="radio" id="three" name="rate" value="3">
+          <label for="three"></label>
+
+          <input type="radio" id="two" name="rate" value="2">
+          <label for="two"></label>
+
+          <input type="radio" id="one" name="rate" value="1">
+          <label for="one"></label>
+
+          <span class="result"></span>
+        </div>
+      </div> 
+    </div>
+    <!-- End 5 STAR -->
+
+    <!--START form-->
+    <form class="Mb">
+      <div class="box3">
+          <h1 class="hd">FEEDBACK FORM</h1>
+        <div class="fbox">
+
+          <label class="topic2">Name</label><br> 
+          <input type="text" class="input"><br><br>
+
+          <label class="topic2">Email</label><br> 
+          <input type="email" class="input"><br><br>
+
+          <label class="topic2">Phone Number</label><br> 
+          <input type="text" class="input"><br><br>
+
+          <label class="topic2">Date</label><br>
+          <input type="date" class="date" ><br><br>
+
+          <label class="topic2">Describe your feedback</label><br>
+          <textarea class="addres" rows="5" cols="40" placeholder="Write Something Here......!"></textarea>
+
+            <br><br><br>
+
+        </div>
+      </div>
+    </form>
+    <!--END form-->
+    
+            <br><br>
+
+    <img src="Photos/gif2.gif" alt="" srcset=""class="gif">
+
+    <div class="but"><!--BOUTTON -->
+      <a href="SubmitSucessfull.html"> 
+        <button type="submit" class="sub" id="submit">
+            <b>Submit</b>
+        </button> 
+      </a>
+    </div><!--END BOUTTON -->
+
+  </div>
+</body>
+</html>

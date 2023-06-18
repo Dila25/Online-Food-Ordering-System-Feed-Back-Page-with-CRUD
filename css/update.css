@@ -1,0 +1,132 @@
+body{
+    background-image: url(/Photos/back.jpg);
+    background-size: 100% 120%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    
+}
+
+/*FORM BOX CSS*/
+.Mb{
+    padding-left: 29%;
+  }
+  .box3
+  {
+    background-image:url(Photos/fromback.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    color: aliceblue;
+    width: 500px;
+    height: 700px;
+    padding-left: 4%;
+    padding-right: 4%;
+    background-color: solid black;
+    border: solid beige;
+    border-radius: 10PX;
+  }
+  
+  .hd{
+    text-align: center;
+    font-size: 37px;
+    font-family: Roboto Slab;
+  }
+  
+  .fbox{
+    background-color: rgba(255, 255, 255, 0.186);
+    color: #fff;
+    height: 475px;
+    width: 460px;
+    padding: 20px;
+    border-radius: 10px;
+    
+  }
+  
+  .input{
+    height: 20px;
+    width: 90%;
+    border-radius: 10px;
+    padding: 10px;
+    background-color: #fafafa;
+    border:2px;
+    border-color: rgb(255, 255, 255);
+    font-weight: bold;
+    font-size: 15px;
+  }
+  
+  .topic2{
+    font-size: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  }
+  
+  .date{
+    font-family: 'PT Sans', sans-serif;
+    font-size: 1.2rem;
+    display: block;
+    height: 38px;
+    width: 50%;
+    text-align: center;
+    border-radius: 10px;
+    font-weight: bold;
+    font-size: 15px;
+  }
+  
+  .addres{
+    height: 130px;
+    width: 90%;
+    border-radius: 10px;
+    padding: 10px;
+    font-weight: bold;
+    font-size: 15px;
+  }
+  
+
+
+
+ /* From uiverse.io */
+ .button{
+    padding-left: 28.5%;
+  }
+
+
+/* CSS */
+.button-40 {
+  background-color: #000000;
+  border: 1px solid transparent;
+  border-radius: .75rem;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  cursor: pointer;
+  flex: 0 0 auto;
+  font-family: "Inter var",ui-sans-serif,system-ui,-apple-system,system-ui,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+  font-size: 1.125rem;
+  font-weight: 600;
+  line-height: 1.5rem;
+padding: .75rem 1.2rem;
+  text-align: center;
+  text-decoration: none #6B7280 solid;
+  text-decoration-thickness: auto;
+  transition-duration: .2s;
+  transition-property: background-color,border-color,color,fill,stroke;
+  transition-timing-function: cubic-bezier(.4, 0, 0.2, 1);
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  width: 180px;
+}
+
+.button-40:hover {
+  background-color: #363232;
+}
+
+.button-40:focus {
+  box-shadow: none;
+  outline: 2px solid transparent;
+  outline-offset: 2px;
+}
+
+@media (min-width: 768px) {
+  .button-40 {
+    padding: .75rem 1.5rem;
+  }
+}

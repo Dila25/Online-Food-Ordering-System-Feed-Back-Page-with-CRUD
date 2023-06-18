@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+body{
+  background-image:url(Photos/back.jpg);
+  background-size: 100% 120%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  
+}
+.alll{
+  padding-left: 26%;
+  padding-top: 10%;
+}
+
+.all{
+    border: solid white 2px;
+    width: 700px;
+}
+
+h1{ 
+    color: aliceblue;
+    text-align: center;
+    font-size: 35px;
+    font-family: Oswald;
+}
+
+h4{
+  color: aliceblue;
+  text-align: center;
+  font-size: 25px;
+  font-family: Oswald;
+ 
+}
+.gif1{
+    width: 450px;
+    height: 300px;
+    border-radius: 15px;
+    
+}
+
+.img{
+  padding-left: 18%;
+}
+
+table{
+  padding-left: 13%;
+}
+
+/* CSS */
+.but{
+  padding-left: 240px;
+}
+.button{
+
+  appearance: none;
+  background-color: #000000;
+  border: 2px solid #ffffff;
+  border-radius: 15px;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  cursor: pointer;
+  display: inline-block;
+  font-family: Oswald;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: normal;
+  margin: 0;
+  min-height: 60px;
+  min-width: 0;
+  outline: none;
+  padding: 16px 24px;
+  text-align: center;
+  text-decoration: none;
+  transition: all 300ms cubic-bezier(.23, 1, 0.32, 1);
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  width: 240px;
+ 
+  will-change: transform;
+}
+
+.button:disabled {
+  pointer-events: none;
+}
+
+.button:hover {
+  box-shadow: rgba(0, 0, 0, 0.25) 0 8px 15px;
+  transform: translateY(-2px);
+}
+
+.button:active {
+  box-shadow: none;
+  transform: translateY(0);
+}
+
+
+

@@ -1,0 +1,139 @@
+body{
+    background-image: url(/Photos/back.jpg);
+    background-size: 100% 120%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    
+}
+
+/*FORM BOX CSS*/
+.Mb{
+    padding-left: 26%;
+  }
+  .box3
+  {
+    background-image:url(Photos/fromback.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    color: aliceblue;
+    width: 600px;
+    height: 700px;
+    padding-left: 4%;
+    padding-right: 4%;
+    background-color: solid black;
+    border: solid beige;
+    border-radius: 10PX;
+  }
+  
+  .hd{
+    text-align: center;
+    font-size: 50px;
+    font-family: Roboto Slab;
+  }
+  
+  .fbox{
+    background-color: rgba(255, 255, 255, 0.186);
+    color: #fff;
+    height: 520px;
+    width: 554px;
+    padding: 20px;
+    border-radius: 10px;
+    
+  }
+  
+  .input{
+    height: 20px;
+    width: 90%;
+    border-radius: 10px;
+    padding: 10px;
+    background-color: #fafafa;
+    border:2px;
+    border-color: rgb(255, 255, 255);
+    font-weight: bold;
+    font-size: 15px;
+  }
+  
+  .topic2{
+    font-size: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  }
+  
+  .date{
+    font-family: 'PT Sans', sans-serif;
+    font-size: 1.2rem;
+    display: block;
+    height: 38px;
+    width: 50%;
+    text-align: center;
+    border-radius: 10px;
+    font-weight: bold;
+    font-size: 15px;
+  }
+  
+  .addres{
+    height: 130px;
+    width: 90%;
+    border-radius: 10px;
+    padding: 10px;
+    font-weight: bold;
+    font-size: 15px;
+  }
+  
+
+
+
+  /* From uiverse.io */
+  .but{
+    padding-left: 45%;
+  }
+  .but1{
+    padding-left: 45%;
+  }
+  .button {
+    position: relative;
+    height: 45px;
+    width: 150px;
+    border-radius: 10px;
+    font-size: 20px;
+    color: #FFF;
+    text-decoration: none;
+    background-color: #222121;
+    border: none;
+    border-bottom: 5px solid #000000;
+    text-shadow: 0px -2px #000000;
+    -webkit-transition: all 0.1s;
+    transition: all 0.1s;
+    
+    
+   }
+   
+   .button:hover, button:active {
+    -webkit-transform: translate(0px,5px);
+    -ms-transform: translate(0px,5px);
+    transform: translate(0px,5px);
+    border-bottom: 1px solid #000000;
+   }
+
+   .button1 {
+    position: relative;
+    height: 45px;
+    width: 150px;
+    border-radius: 10px;
+    font-size: 20px;
+    color: #FFF;
+    text-decoration: none;
+    background-color: #222121;
+    border: none;
+    border-bottom: 5px solid #000000;
+    text-shadow: 0px -2px #000000;
+    -webkit-transition: all 0.1s;
+    transition: all 0.1s;
+   }
+   
+   .button1:hover, .button1:active {
+    -webkit-transform: translate(0px,5px);
+    -ms-transform: translate(0px,5px);
+    transform: translate(0px,5px);
+    border-bottom: 1px solid #000000;
+   }

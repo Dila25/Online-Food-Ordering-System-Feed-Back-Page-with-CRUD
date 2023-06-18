@@ -1,0 +1,67 @@
+<!--<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
+    pageEncoding="ISO-8859-1"%>-->
+
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="ISO-8859-1">
+        <title>Insert title here</title>
+        <link rel="stylesheet" href="/html/update.css">
+    </head>
+<style>
+    q.{
+        
+    }
+</style>
+    <body>
+
+		<!--<%
+		String id = request.getParameter("id");
+		String name = request.getParameter("name");
+		String email = request.getParameter("email");
+		String phone = request.getParameter("phone");
+		String date = request.getParameter("date");
+		String feedback = request.getParameter("feedback");
+	    %> -->
+
+	    <form action="update" method="post" class="Mb">
+
+	        <div class="box3" >
+
+                <h1 class="hd">Update Your feedback Details </h1>
+
+                <div class="fbox">
+                    
+                    <label class="topic2">Customer ID</label><br> 
+			        <input type="text" name="id" value="<%= id %>" readonly class="input"><br><br>  
+		
+                    <label class="topic2">Name</label><br> 
+			        <input type="text" name="name" value="<%= name %>" class="input"><br><br> 
+		
+                    <label class="topic2">Email</label><br>
+		            <input type="text" name="email" value="<%= email %>"class="input"><br><br>  
+
+		            <label class="topic2">Phone Number</label><br> 
+		            <input type="text" name="phone" value="<%= phone %>" class="input"><br><br>  
+	
+                    <label class="topic2">Date</label><br>
+			        <input type="text" name="date" value="<%= date %>" readonly class="input"><br><br>  
+
+                    <label class="topic2">Describe your feedback</label><br>
+		            <input type="text" name="feedback" value="<%= feedback %>" class="input"><br><br>  
+
+	                    <br>
+
+                    <div class="button">
+	                    <input type="submit" name="submit" value="Update My Data"class="button-40" >
+                    </div>
+
+                </div>
+            
+             </div>
+        
+        </form>
+    
+    </body>
+</html>
